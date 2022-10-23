@@ -77,7 +77,9 @@ python3 manage.py runserver
 |POST| /auth/users/me| Базовый: получить/обновить зарег. пользователя |
 |POST| /auth/jwt/create | Создать JWT-токен |
 |POST| /auth/jwt/refresh| Получить новый JWT по истечении времени жизни токена |
+
 Documentation [JWT+djoser](https://djoser.readthedocs.io/en/latest/index.html)
+
 #### For anonymous users
 
   |Method| Endpoint| Description| 
